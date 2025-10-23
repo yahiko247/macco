@@ -9,10 +9,6 @@ function Page() {
         <Header/>
         <Sidebar/>
         <Home/>
-        
-        
-
-      
     </div>
   )
 }
