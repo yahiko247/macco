@@ -1,6 +1,7 @@
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import LoginPage from './components/loginpage/loginpage'
+import Page from './components/page/page'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<LoginPage/>} ></Route>
+          <Route path='/page' element={<Page/>}></Route>
         </Routes>
       </BrowserRouter>
     </>
